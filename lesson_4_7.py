@@ -22,25 +22,33 @@ def is_element_present(driver, *args):
     return False
 
 
-
 def test_example(driver):
     driver.get("http://localhost/litecart/admin/login.php")
     driver.find_element_by_name("username").send_keys("admin")
     driver.find_element_by_name("password").send_keys("admin")
     driver.find_element_by_name("login").click()
     WebDriverWait(driver, 10).until(EC.title_is("My Store"))
-    #elements = driver.find_elements_by_id('app-')
-    #print(elements)
+    elements = driver.find_elements_by_id('app-')
 
-    elements = driver.find_elements(By.CSS_SELECTOR,'li')
-    # app- > a > span.name
+    count1 = elements.__len__()
 
-    # doc-logotype > a > span
-    # app- > a > span.name
+    i=0
+    while i<count1:
 
-    #'app-.name:contains("Catalog")'
+        elements = driver.find_elements_by_id('app-')
+        elements[i].click()
 
-    for element in elements:
-        element.click()
-        #driver.find_element_by_id('doc-logotype').click()
-    pass
+        if is_element_present(driver,By.CSS_SELECTOR,'h1'):
+            print('Заголовок существует')
+
+        i += 1
+        elements_into = driver.find_elements_by_css_selector(".docs>li")
+        count2 = elements_into.__len__()
+
+        j = 0
+        while j< count2:
+            elements_into = driver.find_elements_by_css_selector(".docs>li")
+            elements_into[j].click()
+            j+=1
+            if is_element_present(driver, By.CSS_SELECTOR, 'h1'):
+                print('Заголовок существует')

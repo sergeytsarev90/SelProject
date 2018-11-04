@@ -30,22 +30,22 @@
     <session id="1316204178">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="166" />
+          <entry key="py" value="603" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="166" />
+          <entry key="Python" value="603" />
         </counts>
       </usages-collector>
     </session>
@@ -88,11 +88,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson_4_7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="510">
+              <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson_4_8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -117,14 +129,14 @@
       <list>
         <option value="$PROJECT_DIR$/step1.py" />
         <option value="$PROJECT_DIR$/lesson_4_7.py" />
+        <option value="$PROJECT_DIR$/lesson_4_8.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="867" />
+    <option name="height" value="687" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -160,7 +172,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in lesson_4_7.py">
+  <component name="RunManager" selected="Python tests.pytest for lesson_4_8.test_example">
+    <configuration name="pytest for lesson_4_7.test_example" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="SelProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;lesson_4_7.test_example&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for lesson_4_8.test_example" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="SelProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;lesson_4_8.test_example&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in lesson_4_7.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="SelProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,9 +236,13 @@
     <list>
       <item itemvalue="Python tests.pytest in step1.py" />
       <item itemvalue="Python tests.pytest in lesson_4_7.py" />
+      <item itemvalue="Python tests.pytest for lesson_4_7.test_example" />
+      <item itemvalue="Python tests.pytest for lesson_4_8.test_example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for lesson_4_8.test_example" />
+        <item itemvalue="Python tests.pytest for lesson_4_7.test_example" />
         <item itemvalue="Python tests.pytest in lesson_4_7.py" />
         <item itemvalue="Python tests.pytest in step1.py" />
       </list>
@@ -216,48 +262,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_lesson_4_7_py - 2018.10.31 at 21h 46m 07s.xml">
-      <configuration name="pytest in lesson_4_7.py" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 19m 27s.xml">
+      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_lesson_4_7_py - 2018.10.31 at 21h 57m 26s.xml">
-      <configuration name="pytest in lesson_4_7.py" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 20m 43s.xml">
+      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_lesson_4_7_py - 2018.10.31 at 22h 16m 43s.xml">
-      <configuration name="pytest in lesson_4_7.py" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 21m 33s.xml">
+      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_lesson_4_7_py - 2018.10.31 at 22h 17m 13s.xml">
-      <configuration name="pytest in lesson_4_7.py" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 22m 14s.xml">
+      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_lesson_4_7_py - 2018.10.31 at 22h 17m 36s.xml">
-      <configuration name="pytest in lesson_4_7.py" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 35m 50s.xml">
+      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_lesson_4_7_py - 2018.10.31 at 22h 18m 53s.xml">
-      <configuration name="pytest in lesson_4_7.py" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 36m 52s.xml">
+      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_lesson_4_7_py - 2018.10.31 at 22h 19m 42s.xml">
-      <configuration name="pytest in lesson_4_7.py" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 37m 15s.xml">
+      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_lesson_4_7_py - 2018.10.31 at 22h 25m 14s.xml">
-      <configuration name="pytest in lesson_4_7.py" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 47m 04s.xml">
+      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_lesson_4_7_py - 2018.10.31 at 22h 25m 31s.xml">
-      <configuration name="pytest in lesson_4_7.py" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 47m 41s.xml">
+      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_lesson_4_7_py - 2018.10.31 at 22h 29m 24s.xml">
-      <configuration name="pytest in lesson_4_7.py" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 50m 06s.xml">
+      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -278,8 +324,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lesson_4_7.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="12" />
+          <line>35</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -324,8 +370,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_4_7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="510">
+          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_4_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
