@@ -30,64 +30,28 @@
     <session id="1316204178">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="603" />
+          <entry key="py" value="669" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="603" />
+          <entry key="Python" value="669" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/step1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson_2_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="19" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson_3_4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson_4_7.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,8 +67,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson_4_8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="364">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_5_9.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -129,6 +105,7 @@
       <list>
         <option value="$PROJECT_DIR$/step1.py" />
         <option value="$PROJECT_DIR$/lesson_4_7.py" />
+        <option value="$PROJECT_DIR$/lesson_5_9.py" />
         <option value="$PROJECT_DIR$/lesson_4_8.py" />
       </list>
     </option>
@@ -218,6 +195,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in lesson_4_8.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="SelProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson_4_8.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in step1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="SelProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,10 +230,12 @@
       <item itemvalue="Python tests.pytest in lesson_4_7.py" />
       <item itemvalue="Python tests.pytest for lesson_4_7.test_example" />
       <item itemvalue="Python tests.pytest for lesson_4_8.test_example" />
+      <item itemvalue="Python tests.pytest in lesson_4_8.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for lesson_4_8.test_example" />
+        <item itemvalue="Python tests.pytest in lesson_4_8.py" />
         <item itemvalue="Python tests.pytest for lesson_4_7.test_example" />
         <item itemvalue="Python tests.pytest in lesson_4_7.py" />
         <item itemvalue="Python tests.pytest in step1.py" />
@@ -262,35 +256,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 19m 27s.xml">
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 21h 52m 38s.xml">
       <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 20m 43s.xml">
+    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.05 at 20h 17m 16s.xml">
       <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 21m 33s.xml">
-      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
+    <history-entry file="pytest_in_lesson_4_8_py - 2018.11.05 at 20h 17m 26s.xml">
+      <configuration name="pytest in lesson_4_8.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 22m 14s.xml">
-      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
+    <history-entry file="pytest_in_lesson_4_8_py - 2018.11.05 at 20h 18m 37s.xml">
+      <configuration name="pytest in lesson_4_8.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 35m 50s.xml">
-      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
+    <history-entry file="pytest_in_lesson_4_8_py - 2018.11.05 at 20h 18m 52s.xml">
+      <configuration name="pytest in lesson_4_8.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 36m 52s.xml">
-      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
+    <history-entry file="pytest_in_lesson_4_8_py - 2018.11.05 at 20h 19m 35s.xml">
+      <configuration name="pytest in lesson_4_8.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 37m 15s.xml">
-      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 19m 51s.xml">
+      <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 47m 04s.xml">
-      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 23m 25s.xml">
+      <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 47m 41s.xml">
-      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 24m 25s.xml">
+      <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_lesson_4_7_test_example - 2018.11.04 at 17h 50m 06s.xml">
-      <configuration name="pytest for lesson_4_7.test_example" configurationId="tests" />
+    <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 34m 21s.xml">
+      <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -368,6 +362,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_5_9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_4_7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -380,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_4_8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="364">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

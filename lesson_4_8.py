@@ -14,21 +14,17 @@ def driver(request):
     request.addfinalizer(wd.quit)
     return wd
 
-def is_element_present(element, args):
-  try:
-    element.find_element_by_css_selector(args)
-    return True
-  except NoSuchElementException:
-    return False
 
+def are_elements_present(element, args):
+    return len(element.find_elements_by_css_selector(args)) == 1
 
 def test_example(driver):
     driver.get("http://localhost/litecart/en/")
 
-    elements = driver.find_elements_by_css_selector('li.product.column.shadow.hover-light')
+    elements = driver.find_elements_by_css_selector('.product')
 
     for element in elements:
-        if is_element_present(element,'div.image-wrapper'):
-            print(element.find_element_by_css_selector('div.image-wrapper').text + ' Элемент найден')
+        if are_elements_present(element,'.sticker'):
+            print(element.find_element_by_css_selector('.sticker').text + ' Элемент найден')
 
 
