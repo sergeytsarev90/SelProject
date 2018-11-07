@@ -62,6 +62,7 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson_4_7.py">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="49" />
@@ -77,6 +78,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
               <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -85,6 +91,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/lesson_5_9.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -94,6 +101,24 @@
             <state relative-caret-position="442">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
 >>>>>>> parent of 1b5e2b2... Задание 9 в процесс
+=======
+        <entry file="file://$PROJECT_DIR$/lesson_4_8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson_5_9.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -270,6 +295,12 @@
   </component>
   <component name="TestHistory">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 23m 25s.xml">
+      <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
+    </history-entry>
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
     <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 24m 25s.xml">
       <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
 =======
@@ -301,12 +332,15 @@
     <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 24m 25s.xml">
       <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
     </history-entry>
+<<<<<<< HEAD
     <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 34m 21s.xml">
       <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_lesson_5_9_test_example - 2018.11.06 at 23h 10m 43s.xml">
       <configuration name="pytest for lesson_5_9.test_example" configurationId="tests" />
     </history-entry>
+=======
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -377,6 +411,16 @@
       </provider>
     </entry>
     <entry file="file://C:/Python3/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+<<<<<<< HEAD
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_4_8.py">
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="79" selection-start-line="79" selection-end-line="79" />
@@ -406,12 +450,17 @@
     <entry file="file://$PROJECT_DIR$/lesson_4_8.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="330">
           <caret line="33" column="66" lean-forward="true" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
 =======
         <state relative-caret-position="364">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
 >>>>>>> parent of 1b5e2b2... Задание 9 в процесс
+=======
+        <state relative-caret-position="330">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
