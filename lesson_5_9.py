@@ -23,13 +23,13 @@ def is_element_present(element, args):
 
 
 def test_example(driver):
-    driver.get("http://localhost/litecart/admin/?app=countries&doc=countries")
+    driver.get("http://localhost:8080/litecart/admin/?app=countries&doc=countries")
     driver.find_element_by_name("username").send_keys("admin")
     driver.find_element_by_name("password").send_keys("admin")
     driver.find_element_by_name("login").click()
     #WebDriverWait(driver, 10).until(EC.title_is("My Store"))
 
-    elements = driver.find_elements_by_css_selector('[name=countries_form]')
+    elements = driver.find_elements_by_xpath('//*[contains(@class,''row'')]')
     for element in elements:
         temp = element.find_element_by_css_selector('[href]').text
         print(temp)
