@@ -65,6 +65,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="49" />
@@ -95,6 +96,11 @@
             <state relative-caret-position="136">
               <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
 >>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -103,6 +109,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,6 +125,10 @@
 =======
         <entry file="file://$PROJECT_DIR$/lesson_4_8.py">
           <provider selected="true" editor-type-id="text-editor">
+=======
+        <entry file="file://$PROJECT_DIR$/lesson_4_8.py">
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
 =======
         <entry file="file://$PROJECT_DIR$/lesson_4_8.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -142,6 +153,9 @@
               <caret line="33" selection-start-line="33" selection-end-line="33" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
+=======
 >>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
 =======
 >>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
@@ -326,12 +340,19 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 23m 25s.xml">
 =======
     <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 23m 25s.xml">
 =======
     <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 23m 25s.xml">
+=======
+    <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 23m 25s.xml">
+      <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 24m 25s.xml">
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
       <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 24m 25s.xml">
@@ -368,6 +389,7 @@
     <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 19m 51s.xml">
       <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
     </history-entry>
+<<<<<<< HEAD
     <history-entry file="pytest_for_lesson_4_8_test_example - 2018.11.05 at 20h 23m 25s.xml">
       <configuration name="pytest for lesson_4_8.test_example" configurationId="tests" />
     </history-entry>
@@ -383,6 +405,8 @@
     <history-entry file="pytest_for_lesson_5_9_test_example - 2018.11.06 at 23h 10m 43s.xml">
       <configuration name="pytest for lesson_5_9.test_example" configurationId="tests" />
     </history-entry>
+=======
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
 =======
 >>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
 =======
@@ -462,7 +486,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
 =======
 >>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
 =======
@@ -507,12 +534,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="330">
           <caret line="33" column="66" lean-forward="true" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
 =======
         <state relative-caret-position="364">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
 >>>>>>> parent of 1b5e2b2... Задание 9 в процесс
+=======
+        <state relative-caret-position="330">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+>>>>>>> parent of 8905076... Проверить ковычки в xpath запросе
 =======
         <state relative-caret-position="330">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
