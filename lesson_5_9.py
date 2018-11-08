@@ -74,4 +74,3 @@ def test_example(driver):
                 break
         i += 1
     a=0
-  
