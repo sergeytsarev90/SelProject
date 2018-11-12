@@ -1,10 +1,7 @@
 import pytest
-
+import ast
 from selenium import webdriver
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.by import By
+
 
 
 @pytest.fixture
@@ -16,7 +13,7 @@ def driver(request):
 
 
 def test_example(driver):
-    driver.get("http://localhost:8080/litecart/en/")
+    driver.get("http://localhost/litecart/en/")
 
     name_main = driver.find_element_by_xpath("//div[@id='box-campaigns']//div[@class='name']").text
 
@@ -97,7 +94,39 @@ def test_example(driver):
     else:
         print("Размер шрифта акционной цены меньше обычной цены на главной странице ")
 
-    #color_price_discount_main
+
+    r, g, b, alpha = ast.literal_eval(color_price_discount_main.strip("rgba"))
+
+    if(g==0 and b ==0):
+        print("Цвет акционной цены красный на главной странице ")
+    else:
+        print("Цвет акционной цены не красный на главной странице ")
+
+    r, g, b, alpha = ast.literal_eval(color_price_discount_second.strip("rgba"))
+
+    if(g==0 and b ==0):
+        print("Цвет акционной цены красный на странице товара ")
+    else:
+        print("Цвет акционной цены не красный на странице товара ")
+
+    r, g, b, alpha = ast.literal_eval(color_price_normal_main.strip("rgba"))
+
+    if(g == b == r):
+        print("Цвет обычной цены серый на главной странице ")
+    else:
+        print("Цвет обычной цены не серый на главной странице ")
+
+
+    r, g, b, alpha = ast.literal_eval(color_price_normal_second.strip("rgba"))
+
+    if (g == b == r):
+        print("Цвет обычной цены серый на странице товара ")
+    else:
+        print("Цвет обычной цены не серый на странице товара ")
+
+    #r, g, b, n = map(int, re.search(r'rgb\((\d+),\s*(\d+),\s*(\d+),\s*(\d+)', color_price_discount_main).groups())
+
+   # color_price_discount_main
 
 
     pass
