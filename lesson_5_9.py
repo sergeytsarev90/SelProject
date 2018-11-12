@@ -18,6 +18,13 @@ def alphabet_check(abc_val):
         a+=1
     return True
 
+def is_element_present(driver, *args):
+  try:
+    driver.find_element(*args)
+    return True
+  except NoSuchElementException:
+    return False
+
 @pytest.fixture
 def driver(request):
     wd = webdriver.Chrome()
@@ -25,7 +32,7 @@ def driver(request):
     request.addfinalizer(wd.quit)
     return wd
 
-def test_example(driver):
+def test_example_country(driver):
     driver.get("http://localhost/litecart/admin/?app=countries&doc=countries")
     driver.find_element_by_name("username").send_keys("admin")
     driver.find_element_by_name("password").send_keys("admin")
@@ -74,3 +81,40 @@ def test_example(driver):
                 break
         i += 1
     a=0
+
+def test_example_zone(driver):
+    driver.get("http://localhost:8080/litecart/admin/?app=geo_zones&doc=geo_zones")
+    driver.find_element_by_name("username").send_keys("admin")
+    driver.find_element_by_name("password").send_keys("admin")
+    driver.find_element_by_name("login").click()
+
+    elements = driver.find_elements_by_xpath("//*[contains(@class,'row')]")
+
+    zones = []
+    zone_countries = []
+    i=0
+    count1 = elements.__len__()
+
+    while i<count1:
+        zone_countries.append(elements[i].find_element_by_css_selector('[href]').text)
+        elements[i].find_element_by_css_selector('[href]').click()
+
+        elements_zone = driver.find_elements_by_xpath("//table[@id='table-zones']//tbody//tr[position() > 1]")
+
+        for element in elements_zone:
+            if(is_element_present(element,By.CSS_SELECTOR,'td:nth-child(3) > select:nth-child(1) > option[selected="selected"]')):
+                zones.append(element.find_element_by_css_selector('td:nth-child(3) > select:nth-child(1) > option[selected="selected"]').text)
+
+        if (alphabet_check(zones)):
+            print("Названия в зонах у " + zone_countries[i] + " расположены по алфавиту")
+        else:
+            print("Названия в зонах у " + zone_countries[i] + " расположены не по алфавиту")
+        pass
+
+        driver.get("http://localhost:8080/litecart/admin/?app=geo_zones&doc=geo_zones")
+        elements = driver.find_elements_by_xpath("//*[contains(@class,'row')]")
+        i+=1
+        zones = []
+
+
+    pass
