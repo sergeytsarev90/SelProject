@@ -36,7 +36,7 @@ def test_example(driver):
 
         WebDriverWait(driver, 10).until(EC.number_of_windows_to_be(2))
         driver.switch_to_window(new_window)
-        
+
 
         driver.close()
         driver.switch_to_window(main_window)
