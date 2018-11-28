@@ -9,6 +9,7 @@ import time
 import os
 
 @pytest.fixture
+
 def driver(request):
     # 1) Chrome:
     wd = webdriver.Chrome()
@@ -26,7 +27,7 @@ class MainPage:
         #self.wait = WebDriverWait(driver, 10)
 
     def open(self):
-        self.driver.get("http://localhost:8080/litecart/")
+        self.driver.get("http://localhost/litecart/")
         return self
 
     def open_first_product(self):
@@ -35,9 +36,10 @@ class MainPage:
 
 class CartElement:
     def __init__(self, driver):
+        self.driver = driver
         #self.wait = WebDriverWait(driver, 10)
         #self.cart_element = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR , "#cart-wrapper")))[0]
-        self.cart_element = driver.find_element(By.CSS_SELECTOR , "#cart-wrapper")
+        self.cart_element = self.driver.find_element(By.CSS_SELECTOR , "#cart-wrapper")
 
     def get_counter(self):
         cart_item_quantity_element = self.cart_element.find_element(By.CSS_SELECTOR,".quantity")
@@ -48,6 +50,7 @@ class CartElement:
 
 class ProductElement:
     def __init__(self, driver):
+        self.driver = driver
         self.wait = WebDriverWait(driver, 10)
         self.box_product = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR , "#box-product")))[0]
 
@@ -75,13 +78,46 @@ class CartPage:
             self.wait.until(EC.staleness_of(first_table_line))
             remove_buttons = self.driver.find_elements(By.CSS_SELECTOR , "button[name=remove_cart_item]")
 
-def test_cart(driver):
-    for x in range(0, 3):
-        MainPage(driver).open().open_first_product()
-        cart_item_quantity = CartElement(driver).get_counter()
-        ProductElement(driver).add_to_cart()
-        while CartElement(driver).get_counter() <= cart_item_quantity:
+class Application:
+    def __init__(self):
+        self.driver = webdriver.Chrome()
+        self.product_list_page = MainPage(self.driver)
+        self.cart_page = CartPage(self.driver)
+        self.cart_element = CartElement(self.driver)
+        self.product_element = ProductElement(self.driver)
+
+
+    def quit(self):
+        self.driver.quit()
+
+    def add_element(self):
+        self.product_list_page.open().open_first_product()
+        cart_item_quantity = self.cart_element.get_counter()
+        self.product_element.add_to_cart()
+        while self.cart_element.get_counter() <= cart_item_quantity:
             time.sleep(0.5)
-    CartElement(driver).go_cart()
-    CartPage(driver).self_test().remove_all_products()
-    time.sleep(3)
+
+    def goto_cart(self):
+        self.cart_element.go_cart()
+
+    def delete_from_card(self):
+        self.cart_page.self_test().remove_all_products()
+
+
+def test_cart(app):
+    for x in range(0, 3):
+        app.add_element()
+    app.goto_cart()
+    app.delete_from_card()
+
+
+# def test_cart(driver):
+#     for x in range(0, 3):
+#         MainPage(driver).open().open_first_product()
+#         cart_item_quantity = CartElement(driver).get_counter()
+#         ProductElement(driver).add_to_cart()
+#         while CartElement(driver).get_counter() <= cart_item_quantity:
+#             time.sleep(0.5)
+#     CartElement(driver).go_cart()
+#     CartPage(driver).self_test().remove_all_products()
+#     time.sleep(3)
