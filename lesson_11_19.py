@@ -27,7 +27,7 @@ class MainPage:
         #self.wait = WebDriverWait(driver, 10)
 
     def open(self):
-        self.driver.get("http://localhost/litecart/")
+        self.driver.get("http://localhost:8080/litecart/")
         return self
 
     def open_first_product(self):
@@ -39,22 +39,27 @@ class CartElement:
         self.driver = driver
         #self.wait = WebDriverWait(driver, 10)
         #self.cart_element = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR , "#cart-wrapper")))[0]
-        self.cart_element = self.driver.find_element(By.CSS_SELECTOR , "#cart-wrapper")
+        #self.cart_element = self.driver.find_element(By.CSS_SELECTOR , "#cart-wrapper")
 
     def get_counter(self):
+        self.cart_element = self.driver.find_element(By.CSS_SELECTOR, "#cart-wrapper")
         cart_item_quantity_element = self.cart_element.find_element(By.CSS_SELECTOR,".quantity")
         return int(cart_item_quantity_element.text)
 
     def go_cart(self):
+        self.cart_element = self.driver.find_element(By.CSS_SELECTOR, "#cart-wrapper")
         self.cart_element.find_element(By.XPATH,".//a[.//*[contains(@class,'quantity')]]").click()
 
 class ProductElement:
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(driver, 10)
-        self.box_product = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR , "#box-product")))[0]
+        # self.box_product = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR , "#box-product")))[0]
 
     def add_to_cart(self):
+        #self.wait = WebDriverWait(driver, 10)
+        self.box_product = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "#box-product")))[0]
+
         selectors = self.box_product.find_elements(By.CSS_SELECTOR , "select[name='options[Size]']")
         if (len(selectors) > 0):
             Select(selectors[0]).select_by_index(1)
@@ -85,7 +90,6 @@ class Application:
         self.cart_page = CartPage(self.driver)
         self.cart_element = CartElement(self.driver)
         self.product_element = ProductElement(self.driver)
-
 
     def quit(self):
         self.driver.quit()
